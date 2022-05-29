@@ -1,0 +1,2 @@
+# MovieRecommendationApp
+Application prototype for MovieRecommendationApp
