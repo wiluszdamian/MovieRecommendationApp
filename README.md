@@ -19,7 +19,7 @@ Wykorzystane technologie w projekcie:
 Zostanie dodane w późniejszym czasie 
 
 ## Tasks
-- [ ] Skonfigurowanie widoku bazowego (base/) 
+- [x] Skonfigurowanie widoku bazowego (base/) 
 - [ ] Skonfigurowanie widoku strony głównej (home/)
 - [ ] Skonfigurowanie widoku profilu użytkownika (user/)
 - [ ] Skonfigurowanie widoku filmu i rekomendacji (movie/)
