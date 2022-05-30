@@ -17,11 +17,13 @@ from django.contrib import admin
 from django.urls import path
 from app.views import (
     home,
-    user
+    user,
+    movie
 )
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', home, name='home'),
-    path('user/', user, name='user')
+    path('user/', user, name='user'),
+    path('movie/', movie, name='movie')
 ]

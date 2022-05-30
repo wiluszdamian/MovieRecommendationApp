@@ -5,3 +5,6 @@ def home(request):
 
 def user(request):
     return render(request, 'user.html')
+
+def movie(request):
+    return render(request, 'movie.html')
