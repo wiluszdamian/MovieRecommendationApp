@@ -20,6 +20,6 @@ Zostanie dodane w późniejszym czasie
 
 ## Tasks
 - [x] Skonfigurowanie widoku bazowego (base/) 
-- [ ] Skonfigurowanie widoku strony głównej (home/)
-- [ ] Skonfigurowanie widoku profilu użytkownika (user/)
+- [x] Skonfigurowanie widoku strony głównej (home/)
+- [x] Skonfigurowanie widoku profilu użytkownika (user/)
 - [ ] Skonfigurowanie widoku filmu i rekomendacji (movie/)
