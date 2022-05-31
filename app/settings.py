@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-rga!7m@%76z_3rfettz*axu=5n9ofq0usubf2&!y(hveu=dwq#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['movierecommapp-prototype.herokuapp.com']
+ALLOWED_HOSTS = ['https://movierecommapp-prototype.herokuapp.com/']
 
 
 # Application definition
@@ -134,3 +134,6 @@ STATICFILES_DIRS = (
 
 #  Add configuration for static files storage using whitenoise
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+
+#Django Heroku
+django_heroku.settings(local())
