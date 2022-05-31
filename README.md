@@ -3,10 +3,15 @@
 
 
 ## Spis Treści
+* [Demo](#demo)
 * [Technologie](#technologie)
 * [Tasks](#tasks)
 * [Struktura katalogów](#struktura-katalogów)
-* [Setup](#Setup)
+* [Instalacja](#instalacja)
+
+
+## Demo
+
 
 
 ## Technologie
