@@ -26,7 +26,7 @@ Wykorzystane technologie w projekcie:
 - [x] Skonfigurowanie widoku wszystkich filmów (browse/)
 
 ## Struktura katalogów
-W budowie - next version.
+image.png
 
 ## Instalacja 
 W budowie - next version.
