@@ -1,0 +1,106 @@
+{% extends 'base.html' %}
+{% block content %}
+<section style="background-color: #eee;"></section>
+    <div class="userprofile container py-4">
+        <div class="row">
+        <div class="col">
+            <nav aria-label="breadcrumb" class="bg-light rounded-3 p-3 mb-4">
+            <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a href="{% url 'home' %}">Home</a></li>
+                <li class="breadcrumb-item"><a href="{% url 'browse' %}">Browse</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Superhero</li>
+            </ol>
+            </nav>
+        </div>
+        </div>
+    </div>
+
+    <div class="container"> <!-- Container Starts-->
+        <div class="row pt-4"> <!-- Row Starts-->
+          <div class="col-sm-3 mb-4"> <!-- First Col Starts-->
+            <div class="card text-center"> <!-- List Group Starts -->
+              <div class="card-body">
+                <h1 class="card-title">Movies</h1>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item list-group-item-action"><a class="genres"href="">Comedy</a></li>
+                <li class="list-group-item list-group-item-action"><a class="genres"href="">Sci-Fi</a></li>
+                <li class="list-group-item list-group-item-action"><a class="genres"href="">Horror</a></li>
+                <li class="list-group-item list-group-item-action"><a class="genres"href="">Romance</a></li>
+                <li class="list-group-item list-group-item-action"><a class="genres"href="">Action</a></li>
+                <li class="list-group-item list-group-item-action"><a class="genres"href="">Thriller</a></li>
+                <li class="list-group-item list-group-item-action"><a class="genres"href="">Drama</a></li>
+                <li class="list-group-item list-group-item-action"><a class="genres"href="">Mystery</a></li>
+                <li class="list-group-item list-group-item-action"><a class="genres"href="">Crime</a></li>
+                <li class="list-group-item list-group-item-action"><a class="genres"href="">Animation</a></li>
+                <li class="list-group-item list-group-item-action"><a class="genres"href="">Adventure</a></li>
+                <li class="list-group-item list-group-item-action"><a class="genres"href="">Fantasy</a></li>
+                <li class="list-group-item list-group-item-action"><a class="genres"href="">Comedy-romance</a></li>
+                <li class="list-group-item list-group-item-action"><a class="genres"href="">Action-comedy</a></li>
+                <li class="list-group-item list-group-item-action"><a class="genres"href=""><h5>Superhero</h4></a></li>
+              </ul>
+            </div> <!-- List Group Ends -->
+          </div> <!-- First Col Ends -->
+    
+          <div class="col-sm-9 text-center"> <!-- Second Col Starts -->
+            <div class="row">
+              <div class="col-sm-4 mb-5">
+                <img height="330" class="w-100 mb-2"
+                  src="https://m.media-amazon.com/images/I/91axu2LYHwL._AC_SY679_.jpg"
+                  alt="">
+                <button type="button" class="btn btn-outline-warning">More Info</button>
+              </div>
+              <div class="col-sm-4 mb-5">
+                <img height="330" class="w-100 mb-2" src="https://pbs.twimg.com/media/FF1OEhmVIAEdKsv.jpg:large"
+                  alt="">
+                <button type="button" class="btn btn-outline-warning">More Info</button>
+              </div>
+              <div class="col-sm-4 mb-5">
+                <img height="330" class="w-100 mb-2" src="https://hdmovies300.live/wp-content/uploads/2022/04/EpSC5DYXIAIf6WB.jpg"
+                  alt="">
+                  <button type="button" class="btn btn-outline-warning">More Info</button>
+              </div>
+              <div class="col-sm-4 mb-5">
+                <img height="330" class="w-100 mb-2"
+                  src="https://i.pinimg.com/736x/b3/f4/bd/b3f4bd14ef0e8cbda396be994250bfcd.jpg" alt="">
+                <button type="button" class="btn btn-outline-warning">More Info</button>
+              </div>
+              <div class="col-sm-4 mb-5">
+                <img height="330" class="w-100 mb-2"
+                  src="https://i.pinimg.com/736x/a5/c2/c2/a5c2c2318ecb3c48d7bd1148183108e7.jpg"
+                  alt="">
+                <button type="button" class="btn btn-outline-warning">More Info</button>
+              </div>
+              <div class="col-sm-4 mb-5">
+                <img height="330" class="w-100 mb-2" src="https://media.multikino.pl/uploads/images/films_and_events/pl-poland-thebatman-vert-montage-2764x4096-intl-cut_77e7455579.jpg" alt="">
+                <button type="button" class="btn btn-outline-warning">More Info</button>
+              </div>
+              <div class="col-sm-4 mb-5">
+                <img height="330" class="w-100 mb-2" src="https://www.indiewire.com/wp-content/uploads/2017/05/avengers-age-of-ultron-2015.jpg?w=686"
+                  alt="">
+                <button type="button" class="btn btn-outline-warning">More Info</button>
+              </div>
+              <div class="col-sm-4 mb-5">
+                <img height="330" class="w-100 mb-2" src="https://media.comicbook.com/2017/10/ant-man-movie-poster-marvel-cinematic-universe-1038903.jpg" alt="">
+                <button type="button" class="btn btn-outline-warning">More Info</button>
+              </div>
+              <div class="col-sm-4 mb-5">
+                <img height="330" class="w-100 mb-2" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/whatif-1647462169.png?crop=0.9693757361601884xw:1xh;center,top&resize=480:*"
+                  alt="">
+                <button type="button" class="btn btn-outline-warning">More Info</button>
+              </div>
+            </div>
+          </div> <!-- Second Col Ends -->
+        </div> <!-- Row Ends -->
+      </div> <!-- Container Ends -->
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+      </nav>
+</section>
+{% endblock content %}
