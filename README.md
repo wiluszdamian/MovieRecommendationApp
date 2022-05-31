@@ -46,16 +46,25 @@ Wykorzystane technologie w projekcie:
 ```
 
 ## Instalacja 
-Na samym początku trzeba się upewnić czy mamy zainstalowanego Pythona, jeżeli tak to uruchamiamy następujące komendy: 
+Na samym początku trzeba się upewnić czy mamy zainstalowanego **Pythona** oraz **Git**, jeżeli tak to uruchamiamy następujące komendy: 
 
+1. Uruchamiamy komendę `git clone` która służy do sklonowania repozytorium z GitHuba:
 ```
 git clone https://github.com/wiluszdamian/MovieRecommendationApp.git
-
-cd MovieRecommendationApp
-
-pip install -r requirements.txt
-
-python manage.py runserver
 ```
 
-Aplikacja poda w konsoli informacje na jakim porcie się uruchamia
+2. Przechodzimy do folderu z repozytorium:
+```
+cd MovieRecommendationApp
+```
+
+3. Instalujemy wymagane pakiety:
+```
+pip install -r requirements.txt
+```
+
+4. Odpalamy serwer za pomocą Pythona:
+```
+python manage.py runserver
+```
+5. Aplikacja poda w konsoli informacje o porcie na jakim został uruchomiony projekt, można skopiować i wkleić do przeglądarki.
