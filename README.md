@@ -21,10 +21,12 @@ Wykorzystane technologie w projekcie:
 - [x] Skonfigurowanie widoku bazowego (base/)
 - [x] Skonfigurowanie widoku strony głównej (home/)
 - [x] Skonfigurowanie widoku profilu użytkownika (user/)
+    - [ ] Skonfigurowanie widoku listy "To Watch" i "Added to favourites"
 - [ ] Skonfigurowanie widoku filmu i rekomendacji (movie/) 
+    - [ ] Skonfigurowanie widoku zdjęcia filmu, opisu, aktorów i polecanych podobnych filmów.
 
 ## Struktura katalogów
-W budowie
+W budowie - next version.
 
 ## Instalacja 
-W budowie
+W budowie - next version.
