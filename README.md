@@ -26,7 +26,36 @@ Wykorzystane technologie w projekcie:
 - [x] Skonfigurowanie widoku wszystkich filmów (browse/)
 
 ## Struktura katalogów
-image.png
+```
+├── app                     # Documentation files (alternatively `doc`)
+│   ├── __pycache__         # Table of contents
+│   ├── templates           # Widoki HTML
+│       ├── base.html       # Widok HTML dla struktury bazowej projektu (navbar + footer)
+│       ├── browse.html     # Widok HTML dla przeglądarki filmów
+│       ├── home.html       # Widok HTML dla strony głównej
+│       ├── user.html       # Widok HTML dla profilu użytkownika
+│   ├── __init__.py         # Pusty plik Pythona który mówi, że ten katalog powinien byc uważany za pakiet Pythona
+│   ├── asgi.py             # Punkt wejściowy dla serwerów WWW kompatybilnych z ASGI
+│   ├── settings.py         # Ustawienia i konfiguracja dla projektu Django
+│   ├── urls.py             # Deklaracje URL-i dla projektu
+│   ├── views.py            # Widok, logika aplikacji
+│   ├── wsgi.py             # Punkt wejściowy dla serwerów WWW kompatybilnych z WSGI
+├── db.sqlite3              # Baza SQLite
+├── manage.py               # Narzędzie linii komend
+├── README.md               
+```
 
 ## Instalacja 
-W budowie - next version.
+Na samym początku trzeba się upewnić czy mamy zainstalowanego Pythona, jeżeli tak to uruchamiamy następujące komendy: 
+
+```
+git clone https://github.com/wiluszdamian/MovieRecommendationApp.git
+
+cd MovieRecommendationApp
+
+pip install -r requirements.txt
+
+python manage.py runserver
+```
+
+Aplikacja poda w konsoli informacje na jakim porcie się uruchamia
