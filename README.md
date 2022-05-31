@@ -1,18 +1,11 @@
 # MovieRecommendationApp
-### Prototyp aplikacji MovieRecommendationApp
-
+Prototyp aplikacji MovieRecommendationApp
 
 ## Spis Treści
-* [Demo](#demo)
 * [Technologie](#technologie)
 * [Tasks](#tasks)
 * [Struktura katalogów](#struktura-katalogów)
 * [Instalacja](#instalacja)
-
-
-## Demo
-
-
 
 ## Technologie
 Wykorzystane technologie w projekcie:
