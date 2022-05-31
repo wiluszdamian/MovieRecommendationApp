@@ -27,8 +27,8 @@ Wykorzystane technologie w projekcie:
 
 ## Struktura katalogów
 ```
-├── app                     # Documentation files (alternatively `doc`)
-│   ├── __pycache__         # Table of contents
+├── app                     
+│   ├── __pycache__         
 │   ├── templates           # Widoki HTML
 │       ├── base.html       # Widok HTML dla struktury bazowej projektu (navbar + footer)
 │       ├── browse.html     # Widok HTML dla przeglądarki filmów
