@@ -22,12 +22,8 @@ Wykorzystane technologie w projekcie:
 - [x] Skonfigurowanie widoku strony głównej (home/)
 - [x] Skonfigurowanie widoku profilu użytkownika (user/)
     - [x] Skonfigurowanie widoku listy "Watched"
-    - [ ] Skonfigurowanie widoku listy "Recommended"
+    - [x] Skonfigurowanie widoku listy "Recommended"
 - [x] Skonfigurowanie widoku wszystkich filmów (browse/)
-- [ ] Skonfigurowanie widoku filmu i rekomendacji (movie/) 
-    - [ ] Skonfigurowanie widoku zdjęcia filmu, opisu, aktorów i polecanych podobnych filmów.
-- [ ] Dodanie requirements.txt
-- [ ] Dodanie informacji w jaki sposób uruchomić projekt lokalnie
 
 ## Struktura katalogów
 W budowie - next version.
